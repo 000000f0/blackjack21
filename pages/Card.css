@@ -1,0 +1,22 @@
+/* Card.css */
+.card {
+    width: 80px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
+  }
+  
+  .card-value {
+    margin-bottom: 5px;
+  }
+  
+  .card-suit {
+    font-size: 32px;
+  }
+  

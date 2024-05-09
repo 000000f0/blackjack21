@@ -1,0 +1,35 @@
+/* GameBoard.css */
+.game-board {
+    margin-top: 20px;
+  }
+  
+  .hand {
+    display: flex;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+
+  /* GameBoard.css */
+.hand {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  .hand td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .scores {
+    margin-top: 20px;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  

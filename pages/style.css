@@ -1,0 +1,248 @@
+/* styles.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  text-align: center;
+}
+
+.formgroup {
+  margin-bottom: 15px;
+}
+
+.formgroup label {
+  font-weight: bold;
+}
+
+.formgroup textarea {
+  width: 100%;
+}
+
+.coffee-button,
+.connect-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.connect-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+
+.darkMode .coffee-button,
+.darkMode .connect-button {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.message-box {
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.message-text {
+  font-weight: bold;
+}
+/* styles.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
+/* ... (existing CSS rules) */
+
+.nav-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.wallet-address {
+  margin-right: 20px;
+}
+
+.toggle-darkmode {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-darkmode span {
+  margin-right: 5px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: -4px;
+  bottom: 0;
+  background-color: #000;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: white;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+
+.container,
+.main,
+.formgroup label,
+.formgroup textarea,
+.coffee-button,
+.connect-button,
+.message-box,
+.message-text,
+.nav-header,
+.nav-header h1,
+.wallet-address,
+.toggle-darkmode span {
+  font-family: 'YourFontName', sans-serif; /* Replace 'YourFontName' with the desired font family */
+  font-size: 16px; /* Adjust the font size as needed */
+  font-weight: normal; /* Adjust the font weight as needed */
+}
+
+
+
+.game-board {
+  margin-top: 20px;
+}
+
+.hand {
+  display: flex;
+  justify-content: center;
+}
+
+.player-hand, .dealer-hand {
+  margin-top: 20px;
+}
+
+.card {
+  width: 80px;
+  height: 120px;
+   border: 1px solid black;
+  border-radius: 0px;
+  margin-right: 10px;
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+.card-value {
+  margin-bottom: 5px;
+}
+
+.card-suit {
+  font-size: 32px;
+}
+
+.betting-area {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bet-input {
+  width: 100px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.bet-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.statistics {
+  margin-top: 20px;
+}
+
+.simulation-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.simulation-button button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.game-result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
